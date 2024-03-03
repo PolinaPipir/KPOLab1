@@ -1,6 +1,12 @@
 #include <stdio.h>
+#include <string.h>
 
 int main(int argc, char **argv){
-	print("Hello Git!\n");
+	char name[255];
+	printf("enter your name:");
+	fgets(name, 255, stdin);
+	printf("lenght = %d\n", strlen(name));   /* debug line */
+
+	printf("Hello %s!\n", name);
 	return 0;
 }
