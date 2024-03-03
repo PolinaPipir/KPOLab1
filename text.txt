@@ -10,5 +10,8 @@ int main(int argc, char **argv){
 	printf("Now enter your last name:");
 	gets(last); /* buffer overflow& what's that? */
 	printf("Hello %s%s!\n", first, last);
+<<<<<<< HEAD
 	return 0;
+=======
+>>>>>>> b980a82573d0c601507d5b8a3e575b17ebfe1b69
 }
